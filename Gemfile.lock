@@ -1,0 +1,196 @@
+GIT
+  remote: git://github.com/rspec/rspec-core.git
+  revision: 1012613af2a0db6cdb5fdf5a339f7fa98bb6eb99
+  specs:
+    rspec-core (2.2.pre)
+
+GIT
+  remote: git://github.com/rspec/rspec-expectations.git
+  revision: 2b7b0d8fbc46247983130f2b87f20c5ca270ee9f
+  specs:
+    rspec-expectations (2.2.pre)
+      diff-lcs (~> 1.1.2)
+
+GIT
+  remote: git://github.com/rspec/rspec-mocks.git
+  revision: ed672c6a2b943eac5b537d1f2c5beef71bb3aee9
+  specs:
+    rspec-mocks (2.2.pre)
+
+GIT
+  remote: git://github.com/rspec/rspec-rails.git
+  revision: 41b01ee46a4e41ca897b9537d16ed7cabb266a5f
+  specs:
+    rspec-rails (2.2.pre)
+      rspec (~> 2.2)
+
+GIT
+  remote: git://github.com/rspec/rspec.git
+  revision: 79447df6d32ec9e9eb3194bd1897293d824ca298
+  specs:
+    rspec (2.2.pre)
+      rspec-core (~> 2.2)
+      rspec-expectations (~> 2.2)
+      rspec-mocks (~> 2.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract (1.0.0)
+    actionmailer (3.0.1)
+      actionpack (= 3.0.1)
+      mail (~> 2.2.5)
+    actionpack (3.0.1)
+      activemodel (= 3.0.1)
+      activesupport (= 3.0.1)
+      builder (~> 2.1.2)
+      erubis (~> 2.6.6)
+      i18n (~> 0.4.1)
+      rack (~> 1.2.1)
+      rack-mount (~> 0.6.12)
+      rack-test (~> 0.5.4)
+      tzinfo (~> 0.3.23)
+    activemodel (3.0.1)
+      activesupport (= 3.0.1)
+      builder (~> 2.1.2)
+      i18n (~> 0.4.1)
+    activerecord (3.0.1)
+      activemodel (= 3.0.1)
+      activesupport (= 3.0.1)
+      arel (~> 1.0.0)
+      tzinfo (~> 0.3.23)
+    activeresource (3.0.1)
+      activemodel (= 3.0.1)
+      activesupport (= 3.0.1)
+    activesupport (3.0.1)
+    addressable (2.2.2)
+    arel (1.0.1)
+      activesupport (~> 3.0.0)
+    bson (1.1.2)
+    bson_ext (1.1.2)
+    builder (2.1.2)
+    compass (0.10.6)
+      haml (>= 3.0.4)
+    compass-colors (0.3.1)
+      compass (>= 0.8.7)
+    diff-lcs (1.1.2)
+    erubis (2.6.6)
+      abstract (>= 1.0.0)
+    fancy-buttons (1.0.4)
+      compass (>= 0.10.6)
+    faraday (0.5.3)
+      addressable (~> 2.2.2)
+      multipart-post (~> 1.0.1)
+      rack (>= 1.1.0, < 2)
+    haml (3.0.24)
+    i18n (0.4.2)
+    jnunemaker-validatable (1.8.4)
+      activesupport (>= 2.3.4)
+    mail (2.2.9.1)
+      activesupport (>= 2.3.6)
+      i18n (>= 0.4.1)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.16)
+    mongo (1.1.1)
+      bson (>= 1.1.1)
+    mongo_mapper (0.8.6)
+      activesupport (>= 2.3.4)
+      jnunemaker-validatable (~> 1.8.4)
+      plucky (~> 0.3.6)
+    mongo_store (0.3.0)
+      activesupport (>= 2.2)
+      mongo (>= 1.0)
+    multi_json (0.0.5)
+    multipart-post (1.0.1)
+    net-ldap (0.1.1)
+    nokogiri (1.4.4)
+    oa-basic (0.1.6)
+      multi_json (~> 0.0.2)
+      nokogiri (~> 1.4.2)
+      oa-core (= 0.1.6)
+      rest-client (~> 1.6.0)
+    oa-core (0.1.6)
+      rack (~> 1.1)
+    oa-enterprise (0.1.6)
+      net-ldap (~> 0.1.1)
+      nokogiri (~> 1.4.2)
+      oa-core (= 0.1.6)
+      pyu-ruby-sasl (~> 0.0.3.1)
+      rubyntlm (~> 0.1.1)
+    oa-oauth (0.1.6)
+      multi_json (~> 0.0.2)
+      nokogiri (~> 1.4.2)
+      oa-core (= 0.1.6)
+      oauth (~> 0.4.0)
+      oauth2 (~> 0.1.0)
+    oa-openid (0.1.6)
+      oa-core (= 0.1.6)
+      rack-openid (~> 1.2.0)
+      ruby-openid-apps-discovery
+    oauth (0.4.4)
+    oauth2 (0.1.0)
+      faraday (~> 0.5.0)
+      multi_json (~> 0.0.4)
+    omniauth (0.1.6)
+      oa-basic (= 0.1.6)
+      oa-core (= 0.1.6)
+      oa-enterprise (= 0.1.6)
+      oa-oauth (= 0.1.6)
+      oa-openid (= 0.1.6)
+    plucky (0.3.6)
+      mongo (~> 1.1)
+    polyglot (0.3.1)
+    pyu-ruby-sasl (0.0.3.2)
+    rack (1.2.1)
+    rack-mount (0.6.13)
+      rack (>= 1.0.0)
+    rack-openid (1.2.0)
+      rack (>= 1.1.0)
+      ruby-openid (>= 2.1.8)
+    rack-test (0.5.6)
+      rack (>= 1.0)
+    rails (3.0.1)
+      actionmailer (= 3.0.1)
+      actionpack (= 3.0.1)
+      activerecord (= 3.0.1)
+      activeresource (= 3.0.1)
+      activesupport (= 3.0.1)
+      bundler (~> 1.0.0)
+      railties (= 3.0.1)
+    railties (3.0.1)
+      actionpack (= 3.0.1)
+      activesupport (= 3.0.1)
+      rake (>= 0.8.4)
+      thor (~> 0.14.0)
+    rake (0.8.7)
+    rest-client (1.6.1)
+      mime-types (>= 1.16)
+    ruby-openid (2.1.8)
+    ruby-openid-apps-discovery (1.2.0)
+      ruby-openid (>= 2.1.7)
+    rubyntlm (0.1.1)
+    thor (0.14.4)
+    treetop (1.4.9)
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.23)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext (= 1.1.2)
+  compass (= 0.10.6)
+  compass-colors
+  fancy-buttons
+  haml (>= 3.0.22)
+  mongo (= 1.1.1)
+  mongo_mapper (= 0.8.6)
+  mongo_store
+  omniauth
+  rails (= 3.0.1)
+  rspec!
+  rspec-core!
+  rspec-expectations!
+  rspec-mocks!
+  rspec-rails!

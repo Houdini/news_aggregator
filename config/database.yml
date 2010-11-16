@@ -1,0 +1,12 @@
+# Using MongoDB
+development:
+ database: news-aggregator-development
+ hostname: localhost
+test:
+ adapter: mongodb
+ database: predictor_test
+ hostname: localhost
+production:
+ adapter: mongodb
+ database: predictor_production
+ hostname: localhost
